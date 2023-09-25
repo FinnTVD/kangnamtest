@@ -1,0 +1,703 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply font-normal text-16pc scroll-smooth;
+        text-rendering: optimizeSpeed;
+    }
+
+    body {
+        @apply overflow-x-hidden text-white bg-white;
+    }
+}
+
+@layer components {
+    /* pc */
+    .sub-title {
+        @apply uppercase text-16pc font-bold tracking-[0.8px] text-logo;
+    }
+
+    .title60 {
+        @apply leading-[1.3] text-60pc font-extrabold -tracking-[1.8px] text-white;
+    }
+
+    .title56 {
+        @apply capitalize leading-[1.3] text-56pc font-extrabold -tracking-[1.68px];
+    }
+
+    .title45-800-150 {
+        @apply text-45pc leading-normal font-extrabold -tracking-[2.25px] text-den;
+    }
+
+    .title32-800-130 {
+        @apply font-extrabold leading-[1.3] text-32pc -tracking-[1.6px];
+    }
+
+    .title32-800-125 {
+        @apply font-extrabold leading-[1.25] text-32pc -tracking-[1.6px];
+    }
+
+    .title32-700-125 {
+        @apply font-bold leading-[1.25] text-32pc -tracking-[1.6px];
+    }
+
+    .title32-600-127 {
+        @apply font-extrabold leading-[1.27] text-32pc -tracking-[1.6px];
+    }
+
+    .title28-800-130 {
+        @apply text-28pc font-extrabold leading-[1.3];
+    }
+
+    .title24-800-130 {
+        @apply text-24pc font-extrabold leading-[1.3];
+    }
+
+    .title24-800-150 {
+        @apply text-24pc font-extrabold leading-[1.3];
+    }
+
+    .title20-700-150 {
+        @apply font-bold leading-normal text-20pc;
+    }
+
+    .title20-700-130 {
+        @apply text-20pc font-bold leading-[1.3];
+    }
+
+    .title20-400-150 {
+        @apply font-normal leading-normal text-20pc;
+    }
+
+    .title20-400-130 {
+        @apply text-20pc font-normal leading-[1.3];
+    }
+
+    .title18-700-130 {
+        @apply text-18pc font-bold leading-[1.3];
+    }
+
+    .title18-600-150 {
+        @apply font-semibold leading-normal text-18pc;
+    }
+
+    .title18-600-130 {
+        @apply font-semibold leading-[1.3] text-18pc;
+    }
+
+    .title18-400-160 {
+        @apply text-18pc font-normal leading-[1.6];
+    }
+
+    .title18-400-150 {
+        @apply font-normal leading-normal text-18pc;
+    }
+
+    .title18-400-140 {
+        @apply font-normal leading-[1.4] text-18pc;
+    }
+
+    .title16-600-160 {
+        @apply text-16pc font-semibold leading-[1.6];
+    }
+
+    .title16-800-130 {
+        @apply text-16pc font-extrabold leading-[1.3];
+    }
+
+    .title16-600-150 {
+        @apply font-semibold leading-normal text-16pc;
+    }
+
+    .title16-600-130 {
+        @apply text-16pc font-semibold leading-[1.3];
+    }
+
+    .title16-600-125 {
+        @apply text-16pc font-semibold leading-[1.25];
+    }
+
+    .title16-400-150 {
+        @apply font-normal leading-normal text-16pc;
+    }
+
+    .title16-400-130 {
+        @apply font-normal leading-[1.3] text-16pc;
+    }
+
+    .title16-400-125 {
+        @apply font-normal leading-[1.25] text-16pc;
+    }
+
+    .title15-500-150 {
+        @apply font-medium leading-normal text-15pc;
+    }
+
+    .title14-700-150 {
+        @apply font-bold leading-normal text-14pc;
+    }
+
+    .title14-400-150 {
+        @apply font-normal leading-normal text-14pc;
+    }
+
+    .title12-600-150 {
+        @apply font-semibold leading-normal text-12pc;
+    }
+
+    .title12-400-150 {
+        @apply font-normal leading-normal text-12pc;
+    }
+
+    .title10-600-150 {
+        @apply font-semibold leading-normal text-10pc;
+    }
+
+    .title10-400-150 {
+        @apply font-normal leading-normal text-10pc;
+    }
+
+    .px-120 {
+        @apply px-[7.5vw] max-lg:px-[3.2vw];
+    }
+
+    @media (min-width: 768px) and (max-width: 1023.9px) {
+        .title-tl42 {
+            @apply leading-[1.3] text-42tl font-extrabold -tracking-[1.8px] text-white;
+        }
+
+        .title-tl38 {
+            @apply capitalize leading-[1.3] text-38tl font-extrabold -tracking-[1.68px];
+        }
+
+        .title-tl18-700-150 {
+            @apply font-bold leading-normal text-18tl;
+        }
+
+        .title-tl18-700-130 {
+            @apply font-bold leading-[1.3] text-18tl;
+        }
+
+        .title-tl16-700-150 {
+            @apply font-bold leading-normal text-16tl;
+        }
+
+        .title-tl16-600-150 {
+            @apply font-semibold leading-normal text-16tl;
+        }
+
+        .title-tl16-400-150 {
+            @apply font-normal leading-normal text-16tl;
+        }
+
+        .title-tl16-700-135 {
+            @apply text-16tl font-bold leading-[1.35];
+        }
+
+        .title-tl16-600-160 {
+            @apply text-16tl font-semibold leading-[1.6];
+        }
+
+        .title-tl16-600-130 {
+            @apply text-16tl font-semibold leading-[1.3];
+        }
+
+        .title-tl16-400-130 {
+            @apply text-16tl font-normal leading-[1.3];
+        }
+
+        .title-tl16-400-125 {
+            @apply text-16tl font-normal leading-[1.25];
+        }
+
+        .title-tl14-400-171 {
+            @apply text-14tl font-normal leading-[1.71];
+        }
+
+        .title-tl14-700-150 {
+            @apply font-bold leading-normal text-14tl;
+        }
+
+        .title-tl14-600-160 {
+            @apply font-semibold leading-[1.6] text-14tl;
+        }
+        .title-tl14-700-125 {
+            @apply text-14tl font-bold leading-[1.25];
+        }
+
+        .title-tl14-600-150 {
+            @apply font-semibold leading-normal text-14tl;
+        }
+
+        .title-tl14-600-130 {
+            @apply font-semibold leading-[1.3] text-14tl;
+        }
+
+        .title-tl14-400-160 {
+            @apply text-14tl font-normal leading-[1.6];
+        }
+
+        .title-tl14-400-150 {
+            @apply font-normal leading-normal text-14tl;
+        }
+
+        .title-tl14-700-130 {
+            @apply text-14tl font-bold leading-[1.3];
+        }
+
+        .title-tl14-400-130 {
+            @apply text-14tl font-normal leading-[1.3];
+        }
+
+        .title-tl12-700-150 {
+            @apply font-bold leading-normal text-12tl;
+        }
+
+        .title-tl12-600-160 {
+            @apply text-12tl font-semibold leading-[1.6];
+        }
+
+        .title-tl12-700-150 {
+            @apply font-bold leading-normal text-12tl;
+        }
+
+        .title-tl12-600-150 {
+            @apply font-semibold leading-normal text-12tl;
+        }
+
+        .title-tl12-600-130 {
+            @apply text-12tl font-semibold leading-[1.3];
+        }
+
+        .title-tl12-400-200 {
+            @apply text-12tl font-normal leading-[2];
+        }
+
+        .title-tl12-400-160 {
+            @apply text-12tl font-normal leading-[1.6];
+        }
+
+        .title-tl12-400-150 {
+            @apply font-normal leading-normal text-12tl;
+        }
+
+        .title-tl12-400-130 {
+            @apply text-12tl font-normal leading-[1.3];
+        }
+        .title-tl10-400-130 {
+            @apply text-12tl font-normal leading-[1.3];
+        }
+        .title-tl8-400-130 {
+            @apply text-8tl font-normal leading-[1.3];
+        }
+        .title-tl60 {
+            @apply text-60tl;
+        }
+
+        .title-tl56 {
+            @apply text-56tl;
+        }
+
+        .title-tl45 {
+            @apply text-45tl;
+        }
+
+        .title-tl32 {
+            @apply text-32tl;
+        }
+
+        .title-tl28 {
+            @apply text-28tl;
+        }
+
+        .title-tl25 {
+            @apply text-25tl;
+        }
+
+        .title-tl24 {
+            @apply text-24tl;
+        }
+
+        .title-tl20 {
+            @apply text-20tl;
+        }
+
+        .title-tl18 {
+            @apply text-18tl;
+        }
+
+        .title-tl16 {
+            @apply text-16tl;
+        }
+
+        .title-tl15 {
+            @apply text-15tl;
+        }
+
+        .title-tl14 {
+            @apply text-14tl;
+        }
+
+        .title-tl13 {
+            @apply text-14tl;
+        }
+
+        .title-tl12 {
+            @apply text-12tl;
+        }
+
+        .title-tl10 {
+            @apply text-10tl;
+        }
+    }
+
+    @media screen and (max-width: 767.9px) {
+        /* mobile */
+        .title-mb30-800-130 {
+            @apply text-30mb font-extrabold leading-[1.3];
+        }
+
+        .title-mb25-700-150 {
+            @apply font-bold leading-normal text-25mb;
+        }
+
+        .title-mb25-700-130 {
+            @apply text-25mb font-bold leading-[1.3];
+        }
+
+        .title-mb22-800-150 {
+            @apply font-extrabold leading-normal text-22mb;
+        }
+
+        .title-mb22-800-130 {
+            @apply text-22mb font-extrabold leading-[1.3];
+        }
+
+        .title-mb20-800-140 {
+            @apply text-20mb font-extrabold leading-[1.4];
+        }
+
+        .title-mb20-700-130 {
+            @apply text-20mb font-bold leading-[1.3];
+        }
+
+        .title-mb20-700-111 {
+            @apply text-20mb font-bold leading-[1.1];
+        }
+
+        .title-mb20-400-130 {
+            @apply text-20mb font-normal leading-[1.3];
+        }
+
+        .title-mb20-400-120 {
+            @apply text-20mb font-normal leading-[1.2];
+        }
+
+        .title-mb18-700-150 {
+            @apply font-bold leading-normal text-18mb;
+        }
+
+        .title-mb18-700-130 {
+            @apply font-bold leading-[1.3] text-18mb;
+        }
+
+        .title-mb16-700-150 {
+            @apply font-bold leading-normal text-16mb;
+        }
+
+        .title-mb16-600-150 {
+            @apply font-semibold leading-normal text-16mb;
+        }
+
+        .title-mb16-400-150 {
+            @apply font-normal leading-normal text-16mb;
+        }
+
+        .title-mb16-700-135 {
+            @apply text-16mb font-bold leading-[1.35];
+        }
+
+        .title-mb16-600-130 {
+            @apply text-16mb font-semibold leading-[1.3];
+        }
+
+        .title-mb16-400-130 {
+            @apply text-16mb font-normal leading-[1.3];
+        }
+
+        .title-mb16-400-125 {
+            @apply text-16mb font-normal leading-[1.25];
+        }
+
+        .title-mb14-400-171 {
+            @apply text-14mb font-normal leading-[1.71];
+        }
+
+        .title-mb14-700-150 {
+            @apply font-bold leading-normal text-14mb;
+        }
+
+        .title-mb14-600-160 {
+            @apply font-semibold leading-[1.6] text-14mb;
+        }
+        .title-mb14-700-125 {
+            @apply text-14mb font-bold leading-[1.25];
+        }
+
+        .title-mb14-600-150 {
+            @apply font-semibold leading-normal text-14mb;
+        }
+
+        .title-mb14-400-160 {
+            @apply text-14mb font-normal leading-[1.6];
+        }
+
+        .title-mb14-400-150 {
+            @apply font-normal leading-normal text-14mb;
+        }
+
+        .title-mb14-700-130 {
+            @apply text-14mb font-bold leading-[1.3];
+        }
+
+        .title-mb14-400-130 {
+            @apply text-14mb font-normal leading-[1.3];
+        }
+
+        .title-mb13-700-150 {
+            @apply font-bold leading-normal text-13mb;
+        }
+
+        .title-mb13-600-150 {
+            @apply font-semibold leading-normal text-13mb;
+        }
+
+        .title-mb13-400-184 {
+            @apply text-13mb font-normal leading-[1.84];
+        }
+
+        .title-mb13-400-130 {
+            @apply text-13mb font-normal leading-[1.3];
+        }
+
+        .title-mb12-700-150 {
+            @apply text-12mb font-bold leading-[1.5];
+        }
+
+        .title-mb12-600-160 {
+            @apply text-12mb font-semibold leading-[1.6];
+        }
+
+        .title-mb12-700-150 {
+            @apply font-bold leading-normal text-12mb;
+        }
+
+        .title-mb12-600-150 {
+            @apply font-semibold leading-normal text-12mb;
+        }
+
+        .title-mb12-600-130 {
+            @apply text-12mb font-semibold leading-[1.3];
+        }
+
+        .title-mb12-400-200 {
+            @apply text-12mb font-normal leading-[2];
+        }
+
+        .title-mb12-400-160 {
+            @apply text-12mb font-normal leading-[1.6];
+        }
+
+        .title-mb12-400-150 {
+            @apply font-normal leading-normal text-12mb;
+        }
+
+        .title-mb12-400-130 {
+            @apply text-12mb font-normal leading-[1.3];
+        }
+
+        .title-mb10-700-150 {
+            @apply text-10mb font-bold leading-[1.5];
+        }
+
+        .title-mb10-600-180 {
+            @apply text-10mb font-semibold leading-[1.8];
+        }
+
+        .title-mb10-600-150 {
+            @apply font-semibold leading-normal text-10mb;
+        }
+
+        .title-mb10-400-150 {
+            @apply font-normal leading-normal text-10mb;
+        }
+
+        .px-mb10 {
+            @apply !px-[2.67vw];
+        }
+    }
+
+}
+
+/* ------------HomePage----------------- */
+/* Nav */
+
+#nav.active {
+    @apply translate-y-0;
+}
+
+#nav .title-language-active {
+    @apply text-den;
+}
+
+#nav #box-select-language {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#nav #list-title-nav > li {
+    @apply text-den;
+}
+/* Nav */
+
+/* My Project */
+#boxMap #map,
+#boxMap #map .vietmapgl-canvas-container,
+#boxMap #map .vietmapgl-canvas-container canvas {
+    width: 35.5625vw !important;
+    height: 46.9375vw !important;
+}
+#boxMap #map.active,
+#boxMap #map.active .vietmapgl-canvas-container,
+#boxMap #map.active .vietmapgl-canvas-container canvas {
+    width: 100% !important;
+    height: 46.9375vw !important;
+}
+#box-list-project #map,
+#box-list-project #map .vietmapgl-canvas-container,
+#box-list-project #map .vietmapgl-canvas-container canvas {
+    width: 100vw !important;
+    height: 70vh !important;
+}
+
+#list-project #map,
+#list-project #map .vietmapgl-canvas-container,
+#list-project #map .vietmapgl-canvas-container canvas {
+    width: 35.5625vw;
+    height: calc(100vh - 6vw) !important;
+    border-radius: 0.5vw !important;
+}
+@media screen and (max-width: 767.9px) {
+    #list-project #map,
+    #list-project #map .vietmapgl-canvas-container,
+    #list-project #map .vietmapgl-canvas-container canvas {
+        width: 100vw;
+        height: calc(70vh) !important;
+        border-radius: 0 !important;
+    }
+}
+.vietmapgl-marker.mapboxgl-marker:not([aria-label='Map marker']) {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(48, 51, 58, 0.86);
+    background-clip: padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    border: 4px solid rgba(48, 51, 58, 0.3);
+}
+canvas.vietmapgl-canvas.mapboxgl-canvas {
+    border-top-left-radius: 0.5vw;
+    overflow: hidden;
+}
+
+.vietmapgl-popup-content.mapboxgl-popup-content {
+    width: 21.25vw !important;
+}
+
+/* My Project */
+
+/* list social */
+.item-social:hover {
+    animation: shadow 0.5s;
+    box-shadow: 0 0 0 0.8vw hsla(0, 0%, 100%, 0);
+}
+
+@keyframes shadow {
+    0% {
+        box-shadow: 0 0 0 0 #cbd8cd;
+    }
+}
+
+/* list social */
+
+/* Prominent */
+#prominent ul > li.active::before {
+    animation: changeWidth 6s linear forwards;
+}
+
+@keyframes changeWidth {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+#prominent div.box-img-slide img.active {
+    animation: scaleZoom 6.5s linear forwards;
+}
+@keyframes scaleZoom {
+    from {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+/* Prominent */
+
+/* form */
+textarea::-webkit-scrollbar {
+    width: 0px;
+}
+input.focus-input-active:focus + label {
+    top: 0;
+    transform: translateY(-50%);
+}
+textarea.focus-input-active:focus + label {
+    top: 0;
+    transform: translateY(-50%);
+}
+
+/* form */
+
+/* article#list-img-preview::-webkit-scrollbar {
+    width: 8px;
+}
+
+article#list-img-preview::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+article#list-img-preview::-webkit-scrollbar-thumb {
+    @apply bg-logo rounded-full !h-[32px];
+} */
+
+#listFeature .active1{
+    transition: all 1s;
+    transform: translateX(9vw) translateY(6vw);
+}
+#listFeature .active2{
+    transition: all 1s;
+    transform: translateX(9vw);
+}
+#listFeature .active3{
+    transition: all 1s;
+    transform: translateX(9vw) translateY(-6vw);
+}

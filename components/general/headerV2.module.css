@@ -1,0 +1,13 @@
+.btn-scroll-down {
+    animation: bounce 0.6s ease-out infinite alternate;
+}
+@keyframes bounce {
+    from {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+    to {
+        opacity: 0.8;
+        transform: scale(0.8) translateY(50%);
+    }
+}

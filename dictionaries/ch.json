@@ -1,0 +1,112 @@
+{
+    "Navbar": {
+        "listNav": [
+            {
+                "id": 4,
+                "title": "Dự án",
+                "href": "/项目"
+            },
+            {
+                "id": 5,
+                "title": "Tin tức",
+                "href": "/news"
+            },
+            {
+                "id": 6,
+                "title": "Về KangNam",
+                "branch": [
+                    {
+                        "id": 1,
+                        "title": "Giới thiệu",
+                        "href": "/about-us"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Liên hệ",
+                        "href": "/contact"
+                    }
+                ]
+            }
+        ],
+        "button": "Land deposit",
+        "title": "Select Language"
+    },
+    "Form1": {
+        "sell": "所需销售价格",
+        "hire": "所需租金"
+    },
+
+    "homepageNews": {
+        "subtitle": "新闻综合",
+        "title": "最新消息",
+        "button": "查看全部"
+    },
+    "homepagePartners": {
+        "subtitle": "合作伙伴综合",
+        "title": "我们的伙伴",
+        "button": "成为合伙人"
+    },
+    "footer": {
+        "title1": "接触",
+        "title2": "导航",
+        "title3": "服务"
+    },
+
+    "aboutUsStory": {
+        "subtitle": "品牌故事",
+        "title": "介绍"
+    },
+    "aboutUsTeams": {
+        "subtitle": "江南专家",
+        "title": "江南专家"
+    },
+    "aboutUsContact": {
+        "subtitle": "接触",
+        "title": "文字信息",
+        "button": "文字信息"
+    },
+
+    "newsList": {
+        "subtitle": "新闻关于",
+        "title": "消息"
+    },
+    "newsDetailDes": {
+        "byAuthor": "撰写者",
+        "share": "分享吧"
+    },
+    "newsDetailRelated": {
+        "subtitle": "新闻聚合器",
+        "title": "相关新闻",
+        "button": "查看全部"
+    },
+    "newsLatestButton": {
+        "title": "细节"
+    },
+    "footerNav": [
+        {
+            "id": 1,
+            "title": "Trang chủ",
+            "href": "/"
+        },
+        {
+            "id": 2,
+            "title": "Về Kangnam",
+            "href": "/about-us"
+        },
+        {
+            "id": 3,
+            "title": "Dự án",
+            "href": "/项目"
+        },
+        {
+            "id": 4,
+            "title": "Ký gửi nhà đất",
+            "href": "/deposit"
+        },
+        {
+            "id": 5,
+            "title": "Tin tức",
+            "href": "/news"
+        }
+    ]
+}

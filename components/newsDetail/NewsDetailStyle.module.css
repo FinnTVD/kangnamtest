@@ -1,0 +1,9 @@
+.post-detail img{
+    @apply w-full
+}
+.post-detail p{
+    @apply mt-[1vw] text-den-2 font-normal leading-normal text-18pc max-md:mt-[2.1vw] max-md:text-16mb max-md:font-normal max-md:leading-normal max-lg:text-18tl
+}
+.post-detail h2, .post-detail h3{
+    @apply text-den text-[1.5vw] font-bold leading-[1.375] mt-[1.5vw] max-md:text-18mb max-md:leading-[1.83] max-md:mt-[2.6vw] max-lg:text-24tl
+}

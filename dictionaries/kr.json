@@ -1,0 +1,111 @@
+{
+    "Navbar": {
+        "listNav": [
+            {
+                "id": 4,
+                "title": "Dự án",
+                "href": "/프로젝트"
+            },
+            {
+                "id": 5,
+                "title": "Tin tức",
+                "href": "/news"
+            },
+            {
+                "id": 6,
+                "title": "Về KangNam",
+                "branch": [
+                    {
+                        "id": 1,
+                        "title": "Giới thiệu",
+                        "href": "/about-us"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Liên hệ",
+                        "href": "/contact"
+                    }
+                ]
+            }
+        ],
+        "button": "Land deposit",
+        "title": "Select Language"
+    },
+    "Form1": {
+        "sell": "원하는 판매 가격",
+        "hire": "원하는 임대료"
+    },
+
+    "homepageNews": {
+        "subtitle": "뉴스 합성",
+        "title": "최근 뉴스",
+        "button": "모두 보기"
+    },
+    "homepagePartners": {
+        "subtitle": "파트너 합성",
+        "title": "우리의 파트너들",
+        "button": "파트너가되다"
+    },
+    "footer": {
+        "title1": "연락하다",
+        "title2": "항해",
+        "title3": "서비스"
+    },
+    "aboutUsStory": {
+        "subtitle": "브랜드 스토리",
+        "title": "소개하다"
+    },
+    "aboutUsTeams": {
+        "subtitle": "팀",
+        "title": "강남전문"
+    },
+    "aboutUsContact": {
+        "subtitle": "연락하다",
+        "title": "사무실 정보",
+        "button": "지금 연락하세요"
+    },
+
+    "newsList": {
+        "subtitle": "에 대한 뉴스",
+        "title": "소식"
+    },
+    "newsDetailDes": {
+        "byAuthor": "에 의해 작성",
+        "share": "공유하다"
+    },
+    "newsDetailRelated": {
+        "subtitle": "일반 뉴스",
+        "title": "관련 뉴스",
+        "button": "모두 보기"
+    },
+    "newsLatestButton": {
+        "title": "세부 사항"
+    },
+    "footerNav": [
+        {
+            "id": 1,
+            "title": "Trang chủ",
+            "href": "/"
+        },
+        {
+            "id": 2,
+            "title": "Về Kangnam",
+            "href": "/about-us"
+        },
+        {
+            "id": 3,
+            "title": "Dự án",
+            "href": "/프로젝트"
+        },
+        {
+            "id": 4,
+            "title": "Ký gửi nhà đất",
+            "href": "/deposit"
+        },
+        {
+            "id": 5,
+            "title": "Tin tức",
+            "href": "/news"
+        }
+    ]
+}

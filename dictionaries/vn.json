@@ -1,0 +1,145 @@
+{
+    "Navbar": {
+        "listNav": [
+            {
+                "id": 4,
+                "title": "Dự án",
+                "href": "/du-an"
+            },
+            {
+                "id": 5,
+                "title": "Tin tức",
+                "href": "/news"
+            },
+            {
+                "id": 6,
+                "title": "Về KangNam",
+                "branch": [
+                    {
+                        "id": 1,
+                        "title": "Giới thiệu",
+                        "href": "/about-us"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Liên hệ",
+                        "href": "/contact"
+                    }
+                ]
+            }
+        ],
+        "button": "Kí gửi nhà đất",
+        "title": "Chọn ngôn ngữ"
+    },
+    "Form1": {
+        "sell": "Giá bán mong muốn",
+        "hire": "Giá thuê mong muốn"
+    },
+    "homepageNews": {
+        "subtitle": "Tổng hợp tin tức",
+        "title": "Tin tức mới nhất",
+        "button": "Xem tất cả"
+    },
+    "homepagePartners": {
+        "subtitle": "Tổng hợp các đối tác",
+        "title": "Đối tác của chúng tôi",
+        "button": "Trở thành đối tác"
+    },
+    "footer": {
+        "title1": "Liên hệ",
+        "title2": "Điều hướng chung",
+        "title3": "Dịch vụ"
+    },
+    "aboutUsStory": {
+        "subtitle": "Câu chuyện thương hiệu",
+        "title": "Giới thiệu"
+    },
+    "aboutUsTeams": {
+        "subtitle": "Đội ngũ",
+        "title": "Chuyên viên Kangnam"
+    },
+    "aboutUsContact": {
+        "subtitle": "Liên hệ",
+        "title": "Thông tin văn phòng",
+        "button": "Liên hệ ngay"
+    },
+    "newsList": {
+        "subtitle": "Tin tức về",
+        "title": "Tin tức"
+    },
+    "newsDetailDes": {
+        "byAuthor": "Viết bởi",
+        "share": "Chia sẻ lên"
+    },
+    "newsDetailRelated": {
+        "subtitle": "Tổng hợp tin tức",
+        "title": "Tin tức liên quan",
+        "button": "Xem tất cả"
+    },
+    "newsLatestButton": {
+        "title": "Chi tiết"
+    },
+    "footerNav": [
+        {
+            "id": 1,
+            "title": "Trang chủ",
+            "href": "/"
+        },
+        {
+            "id": 2,
+            "title": "Về Kangnam",
+            "href": "/about-us"
+        },
+        {
+            "id": 3,
+            "title": "Dự án",
+            "href": "/du-an"
+        },
+        {
+            "id": 4,
+            "title": "Ký gửi nhà đất",
+            "href": "/deposit"
+        },
+        {
+            "id": 5,
+            "title": "Tin tức",
+            "href": "/news"
+        }
+    ],
+    "menuNav": {
+        "nav1": [
+            {
+                "id": 1,
+                "title": "Trang chủ",
+                "href": "/"
+            },
+            {
+                "id": 2,
+                "title": "Dự án",
+                "href": "/projects"
+            },
+            {
+                "id": 3,
+                "title": "Bán lại",
+                "href": "/resale"
+            }
+        ],
+        "nav2": [
+            {
+                "id": 1,
+                "title": "Về Kangnam",
+                "href": "/about-us"
+            },
+            {
+                "id": 2,
+                "title": "Tin tức",
+                "href": "/news"
+            },
+            {
+                "id": 3,
+                "title": "Liên hệ",
+                "href": "/contact"
+            }
+        ]
+    }
+}

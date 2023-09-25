@@ -1,0 +1,3 @@
+.ourHouse:checked + label.label-ourHouse {
+    @apply text-den;
+}

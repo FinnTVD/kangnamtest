@@ -1,0 +1,145 @@
+{
+    "Navbar": {
+        "listNav": [
+            {
+                "id": 4,
+                "title": "Project",
+                "href": "/projects"
+            },
+            {
+                "id": 5,
+                "title": "News",
+                "href": "/news"
+            },
+            {
+                "id": 6,
+                "title": "About KangNam",
+                "branch": [
+                    {
+                        "id": 1,
+                        "title": "About us",
+                        "href": "/about-us"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Contact",
+                        "href": "/contact"
+                    }
+                ]
+            }
+        ],
+        "button": "Land deposit",
+        "title": "Select Language"
+    },
+    "Form1": {
+        "sell": "Desired selling price",
+        "hire": "Desired rent"
+    },
+    "homepageNews": {
+        "subtitle": "News synthesis",
+        "title": "Latest news",
+        "button": "See all"
+    },
+    "homepagePartners": {
+        "subtitle": "Partners synthesis",
+        "title": "Our partners",
+        "button": "Become our partner"
+    },
+    "footer": {
+        "title1": "Contact",
+        "title2": "Navigation",
+        "title3": "Services"
+    },
+    "aboutUsStory": {
+        "subtitle": "Brand story",
+        "title": "Introduction"
+    },
+    "aboutUsTeams": {
+        "subtitle": "Our teams",
+        "title": "Kangnam specialists"
+    },
+    "aboutUsContact": {
+        "subtitle": "Contact",
+        "title": "Our office",
+        "button": "Contact now"
+    },
+    "newsList": {
+        "subtitle": "News about",
+        "title": "News"
+    },
+    "newsDetailDes": {
+        "byAuthor": "By",
+        "share": "Share on it"
+    },
+    "newsDetailRelated": {
+        "subtitle": "News synthesis",
+        "title": "Related news",
+        "button": "See all"
+    },
+    "newsLatestButton": {
+        "title": "View"
+    },
+    "footerNav": [
+        {
+            "id": 1,
+            "title": "Trang chủ",
+            "href": "/"
+        },
+        {
+            "id": 2,
+            "title": "Về Kangnam",
+            "href": "/about-us"
+        },
+        {
+            "id": 3,
+            "title": "Dự án",
+            "href": "/projects"
+        },
+        {
+            "id": 4,
+            "title": "Ký gửi nhà đất",
+            "href": "/deposit"
+        },
+        {
+            "id": 5,
+            "title": "Tin tức",
+            "href": "/news"
+        }
+    ],
+    "menuNav": {
+        "nav1": [
+            {
+                "id": 1,
+                "title": "Homepage",
+                "href": "/"
+            },
+            {
+                "id": 2,
+                "title": "Projects",
+                "href": "/projects"
+            },
+            {
+                "id": 3,
+                "title": "Resale",
+                "href": "/resale"
+            }
+        ],
+        "nav2": [
+            {
+                "id": 1,
+                "title": "About us",
+                "href": "/about-us"
+            },
+            {
+                "id": 2,
+                "title": "News",
+                "href": "/news"
+            },
+            {
+                "id": 3,
+                "title": "Contact",
+                "href": "/contact"
+            }
+        ]
+    }
+}
